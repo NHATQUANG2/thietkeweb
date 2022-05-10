@@ -1,0 +1,44 @@
+.form{
+    margin-left: 500px;
+    font-size: 13px;
+}
+form{
+    height: 70vh;
+    line-height: 8vh;
+    
+}
+.tk{
+    border: 1px solid #aeb1e3;
+    height: 30px;
+    border-radius: 5px;
+
+}
+input#a{
+    width: 280px;
+    height: 30px;
+    margin-right: 10px;
+    color: white;
+    background:#285cef;
+    border-radius: 25px;
+
+}
+input#b{
+    width: 280px;
+    height: 30px;
+    margin-right: 10px;
+    color: white;
+    background: orange;
+    border-radius: 25px;
+}
+input#b:hover{
+    opacity: 0.60;
+}
+input#a:hover{
+    opacity: 0.50;
+}
+label#d{
+    font-size: 20px;
+    color: #aeb1e3;
+}
+
+

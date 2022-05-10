@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: pink;
+    font-family: monospace;/* font chữ  */
+   
+}
+.wrapper{
+    width: 980px;
+    margin: auto;/* căn giữa */
+}
+.logo{
+    background-color: #d9eaeb;  /* màu hình nền */  
+   float: left;/* căn trái */
+    height: 90px;   
+
+}
+.banner{
+    margin-top: 90px;
+}
+.menu ul li{
+    float: left;
+    padding: 0px 15px;
+    line-height: 70px;/* làm chữ ở giữa */
+    list-style: none;/* cái dấu đầu câu: không dùng*/
+    margin-left: 20px;
+
+  
+    
+}
+.menu{
+    background: #d9eaeb;/* hình nền */
+    height: 90px;
+    font-size: 30px;
+    width: 980px;
+}
+.menu ul li a{
+    font-size: 18px;/* cỡ chữ */
+    color: #3c3c3a;/* màu chữ */
+    text-decoration: none;/* cái gạch chân dưới chữ */
+    display: block;
+    
+}
+.dk{
+    margin-left: 850px;
+    line-height: 70px;
+    
+
+}
+input#dk{
+    width: 90px;
+    height: 30px;
+    color:red;
+    background-color: aqua;
+    border: 0.5px solid orange;/* đường viền */
+}
+aside{
+    min-height: 400px;/*  */
+    width: 25%;
+    background:pink;
+    float: left;
+    margin-top: 30px;
+    font-size: 20px;
+}
+article{
+    min-height: 400px;
+    width: 75%;
+    background: pink;
+    float: left;
+    margin-top: 30px;/* căn trên */
+    /* display:flex: ; căn cùng một hàng,nằm bên cạnh ; */
+    /* padding: 1px 1px ; căn trên,dưới:1px ; trái, phải:1px */
+
+}
+article img{
+    height: 150px;
+    width: 220px;
+    border-radius: 10px;/* bo tròn viền cạnh */
+    margin-top: 10px;
+}
+
+.monan{
+    float: left;
+    color: grey;
+    margin-right: 25px;/* căn phải */
+}
+header{
+    position: fixed; /* cố định header */
+    top:0; /* gắn trên  */
+    z-index: 10;
+}
+.menu ul li a:hover{
+    background-color:aqua;
+    
+}
+input#dk:hover{
+    background-image: linear-gradient(#3c3c3a,#d9eaeb);
+}
+
+/* shift + alt +A : bật ghi chú */
+/* ctrol + . : cách khắc phục lỗi nhanh chóng */
+/* ctrol + g : cách di chuyển đến dòng mong muốn */
+

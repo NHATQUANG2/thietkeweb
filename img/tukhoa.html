@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  body{
+      background: pink;
+      font-family: monospace;/* font chữ  */
+     
+  }
+  .wrapper{
+      width: 980px;
+      margin: auto;/* căn giữa */
+  }
+  .logo{
+      background-color: #d9eaeb;  /* màu hình nền */  
+     float: left;/* căn trái */
+      height: 90px;   
+  
+  }
+  .banner{
+      margin-top: 10px;
+  }
+  .menu ul li{
+      float: left;
+      padding: 0px 15px;
+      line-height: 70px;/* làm chữ ở giữa */
+      list-style: none;/* cái dấu đầu câu: không dùng*/
+      margin-left: 20px;
+  
+    
+      
+  }
+  .menu{
+      background: #d9eaeb;/* hình nền */
+      height: 90px;
+      font-size: 30px;
+      width: 980px;
+  }
+  .menu ul li :hover{
+      background-color: plum;
+      opacity: 0.5;
+  }
+  .menu ul li a{
+      font-size: 18px;/* cỡ chữ */
+      color: #3c3c3a;/* màu chữ */
+      text-decoration: none;/* cái gạch chân dưới chữ */
+      display: block;
+      
+  }
+  .dk{
+      margin-left: 850px;
+      line-height: 70px;
+      
+  
+  }
+  input#dk{
+      width: 90px;
+      height: 30px;
+      color:red;
+      background-color: aqua;
+      border: 0.5px solid orange;/* đường viền */
+  }
+  h1{
+      text-align: center;
+      color: purple;
+  }
+  h2{
+      margin-left: 20px;
+  }
+  #nd-tukhoa{
+      font-size: 15px;
+      color: red;
+  }
+      </style>
+     <div class="wrapper">
+      <header>
+          <div class="logo">
+              <img src="logo menu.png" height="90px" alt="">
+          </div>
+          <div class="menu">
+              <ul>
+                  <li><a href="menu.html">Trang chủ</a></li>
+                  <li><a href="vechungtoi.html">Về chúng tôi</a></li>
+                  <li><a href="tukhoa.html">Từ khoá</a></li>
+                  <li><a href="congthuc.html">Công thức</a></li>
+              </ul>
+              <div class="dk">
+                 <a href="form.html"> <input  type="submit" value="Đăng Kí" id="dk"></a>
+              </div>                
+  
+          </div>
+      </header>
+      <div class="banner">
+          <img src="anh menu.jpg" alt="">
+  
+      </div>
+      <h1> Từ Khoá</h1>
+      
+      <h2> 1. Title : Món ăn ngon Việt Nam</h3>
+      <div id="tukhoa">
+        <div id="nd-tukhoa">
+            Có 1 số quan điểm riêng của mình về vấn đề title <br>
+            a. Hay, ấn tượng, lột tả dc nội dung website muốn hướng đến (riêng title của mình thì chỉ đáp ứng dc tiêu chí thứ 3) <br>
+            b. Title từ 60-70 kí tự, dài qá sẽ bị google cắt mất khi hiển thị trên SE <br>
+            c. Không dồn nhiều từ khóa giống hoặc liên quan đến nhau vào title, rất dẽ bị rút gọn title. <br>
+        </div>        
+        <h2>2. Description :</h3>  
+        <div id="nd-tukhoa">
+            Món ăn ngon là đặc điểm nổi bật của văn hóa ẩm thực Việt Nam. Hãy đến với chúng tôi để tìm hiểu thêm về món ăn ngon nhé. <br>        
+            Cũng có 1 vài ý kiến : <br>            
+            a. Des khoảng 160-165 kí tự, dài quá sẽ bị cắt. <br>
+            b. Google đã không còn coi trọng 2 thẻ Meta Des và Meta Keyword nữa nhưng dù sao có vẫn tốt hơn. Hình như Yahoo và Bing vẫn còn coi trọng 2 thẻ này. <br>
+            c. Des không dành cho bot google mà dành cho khách hàng, người ta đọc đoạn mô tả thấy hay, ấn tượng thì sẽ vào. <br>
+            d. Khéo léo chèn khoảng 1,2 từ khóa vào des vì khi search nó sẽ dc bôi đậm. Tuy nhiên chèn sao cho thật tự nhiên, tránh gây phản cảm. <br>
+        </div>        
+        <h2>3. Meta Keyword :</h3>
+        <div id="nd-tukhoa">
+            Món ăn ngon, ẩm thực việt nam, am thuc viet nam, am thuc, ẩm thực <br>        
+            Cái này chắc không cân phải nói nhiều, tuy nhiên keyword liên quan đến nội dung website sẽ tốt hơn. Ví dụ như trang ẩm thực Việt Nam mà đưa từ truyện tranh online vào thì thật không hay tí nào. <br>            
+            Hiện tại khi SEO trên Google thì thẻ này đã không còn tác dụng nữa, nhưng dù sao có vận tốt hơn không. <br>
+        </div>
+      </div>
+
+    
+</body>
+</html>

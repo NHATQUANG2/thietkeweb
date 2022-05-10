@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 980px;
+    margin: auto;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;/* nằm qua một bên trừa giữa một khoảng cách */
+    align-items: center;/* chữ căn giữa */
+}
+#menu{
+    display: flex;
+    list-style: none;
+}
+#menu li a{
+    text-decoration: none;
+    padding: 15px 15px;
+}
+.banner{
+    width: 980px;
+    height: 400px;
+}
+.nd{
+    width: 200px;
+    height: 300px;
+    background-image: linear-gradient(#d5dd51,#e5b840,#ea9527);
+    margin-left: 47px;
+    margin-top: -150px;
+   
+}
+.nd1{
+    width: 200px;
+    height: 300px;
+    background-image: linear-gradient(#361b63,#481cee);
+    margin-left: 25px;
+    margin-top: -150px;
+    
+}
+.nd2{
+    width: 200px;
+    height: 300px;
+    background-image: linear-gradient(#dc167c,#dc165c);
+    margin-left: 25px;
+    margin-top: -150px;
+}
+.nd3{
+    width: 200px;
+    height: 300px;
+    background-image: linear-gradient(#900fc5,#9619b5);
+    margin-left: 25px;
+    margin-top: -150px;
+}
+.conten{
+    display: flex;
+}
+#td1{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 42px;
+    color: azure;
+}
+#td2{
+    margin-left: 10px;
+    font-size: 17px;
+    margin-top: 20px;
+    color: azure;
+}
+.menu h1{
+    color:#481cee ;
+}
+.conten1{
+    width: 980px;
+    margin: auto;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.nd-conten1{
+    width: 425px;
+    height: 300px;
+    background-color: #361b63;
+    color: aliceblue;
+}
+.anh-conten1 img{
+    width: 425px;
+    height: 300px;
+    margin-left: 20px;
+}
+.conten2{
+    width: 980px;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+}
+#tk{
+    background: #9619b5;
+    padding: 10px 20px;
+    margin-left: 20px;
+}
+.nd-conten2{
+    width: 425px;
+    height: 300px;
+    background-color: #361b63;
+    margin-left: 20px;
+    color: aliceblue;
+
+}
+#td-conten1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 42px;
+}
+#td1-conten1{
+    padding: 20px 20px;
+}
+.anh-conten2 img{
+    width: 425px;
+    height: 300px;
+    margin-left: 50px;
+}
+.conten3{
+    margin-top: 20px;
+}
+.anh-conten3 img{
+    width: 980px;
+    height: 400px;
+}
+#nd-conten3{
+    width: 425px;
+    height: 400px;
+    margin-top: -404px;
+    position: absolute;
+    opacity: 0.8;
+    background-color: yellowgreen;
+    margin-left: 50px;
+
+}
+#td-conten3{
+    font-size: 42px;
+    color: red;
+    padding: 5px 30px;
+}
+#td1-conten3{
+    font-size: 18px;
+    padding: 10px 30px;
+}
+#tk1{
+    background: #d5dd51;
+    margin-left: 30px;
+    font-size: 22px;
+}
+#tk1:hover{
+    background-color: #dc167c;
+    opacity: 0.5;/* làm mờ */
+    transition: 0.3s  ;/* thời gian */
+
+
+}
+.conten4{
+    margin-top: 20px;
+    display: flex;
+}
+.nd-conten4{
+    background-color: #dc167c;
+    width: 425px;
+    height: 300px;
+    margin-left: 50px;
+}
+#td-conten4{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 25px;
+}
+#td1-conten4{
+    font-size: 20px;
+    padding: 5px 25px;
+}
+#anh-conten4 img{
+    width: 425px;
+    height: 300px;
+    margin-left: 20px ;
+}
+i{
+    padding: 7px 10px;
+    color: aliceblue;
+    float: left;
+}
+.codinhanh-conten5{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    position: relative;
+}
+.anh-conten5 img{
+    width: 150px;
+    height: 150px;
+    border: none ;
+    border-radius: 50%;
+    
+}
+.noidung-conten5{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -70px;
+}
+.nd-conten5{
+    background-color: pink;
+    height: 250px;
+    width: 172px;
+      
+    
+}
+.nd-conten5 p{
+    margin-top: 70px;
+    padding: 5px 5px;
+}
+#td1-conten5{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    color: red;
+}
+.conten6{
+    float: left;
+    background-color: #481cee;
+    width: 425px;
+    height: 300px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+#td-conten6{
+    font-size: 32px;
+    padding: 20px 30px;
+    color: aliceblue;
+}
+#td1-conten6{
+    color: aliceblue;
+    font-size: 16px;
+    padding: 10px 30px;
+}
+#so-conten6{
+    font-size: 30px;
+    color: aliceblue;
+}
+.conten6{
+    
+    width: 425px;
+}
+iframe{
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 425px;
+}
+.footer{
+    text-align: center;
+    color: rgb(165, 160, 160);
+    height: 90px;
+    line-height: 90px;
+}
+/* trang lấy icon : font awesome cdn  phiên bản 6.1.1 lấy cái  đầu tiên cái </> cop dán xong chọn cái setup bấm vào icon  */
+/* boder - radius:       bo tròn viền cạnh của hình*/

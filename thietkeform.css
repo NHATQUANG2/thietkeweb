@@ -1,0 +1,33 @@
+.login{
+    width: 300px;
+    height: 300px;
+    border: 1px solid palevioletred;
+    border-radius: 10px;
+    text-align: center;
+}
+h2{
+    color: rebeccapurple;
+    font-family: sans-serif;
+}
+input{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid palevioletred;
+    padding-left: 20px;
+}
+button{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: blueviolet;
+    color: azure;
+
+}
+button :hover{
+    font-size: 15px;
+}
+

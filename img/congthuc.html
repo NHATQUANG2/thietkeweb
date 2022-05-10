@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  body{
+      background: pink;
+      font-family: monospace;/* font chữ  */     
+  }
+  .wrapper{
+      width: 980px;
+      margin: auto;/* căn giữa */
+  }
+  .logo{
+      background-color: #d9eaeb;  /* màu hình nền */  
+     float: left;/* căn trái */
+      height: 90px;     
+  }
+  .banner{
+      margin-top: 10px;
+  }
+  .menu ul li{
+      float: left;
+      padding: 0px 15px;
+      line-height: 70px;/* làm chữ ở giữa */
+      list-style: none;/* cái dấu đầu câu: không dùng*/
+      margin-left: 20px;            
+  }
+  .menu ul li :hover{
+      background-color: plum;
+      opacity: 0.5;
+  }
+  .menu{
+      background: #d9eaeb;/* hình nền */
+      height: 90px;
+      font-size: 30px;
+      width: 980px;
+  }
+  .menu ul li a{
+      font-size: 18px;/* cỡ chữ */
+      color: #3c3c3a;/* màu chữ */
+      text-decoration: none;/* cái gạch chân dưới chữ */
+      display: block;      
+  }
+  .dk{
+      margin-left: 850px;
+      line-height: 70px;       
+  }
+  input#dk{
+      width: 90px;
+      height: 30px;
+      color:red;
+      background-color: aqua;
+      border: 0.5px solid orange;/* đường viền */
+  }
+  h1{
+      color: rebeccapurple;
+      margin-left: 50px;
+     padding: 10px 20px;
+     text-decoration: underline;
+  }
+  h2{
+      padding: 10px 20px;  
+
+  }
+  #anh{
+      margin-top: 10px;
+    border-radius: 40px;
+      height: 300px;
+      width: 980px;
+  }   
+  .monan p{
+      color: blue;
+      margin-top: 10px;
+      font-size: 15px;
+  }         
+      </style>
+     <div class="wrapper">
+      <header>
+          <div class="logo">
+              <img src="logo menu.png" height="90px" alt="">
+          </div>
+          <div class="menu">
+              <ul>
+                  <li><a href="menu.html">Trang chủ</a></li>
+                  <li><a href="vechungtoi.html">Về chúng tôi</a></li>
+                  <li><a href="tukhoa.html">Từ khoá</a></li>
+                  <li><a href="congthuc.html">Công thức</a></li>
+              </ul>
+              <div class="dk">
+                 <a href="form.html"> <input  type="submit" value="Đăng Kí" id="dk"></a>
+              </div>                
+  
+          </div>
+      </header>
+      <div class="banner">
+          <img src="anh menu.jpg" alt="">
+  
+      </div>
+      <h1> Công thức</h1>
+      <div class="monan">
+        <h1> Thịt bò sốt vang</h1>
+
+        <h2>Nguyên liệu:</h2>
+        <hr>
+        
+        <p>
+            500g thịt bò
+        1 nhánh gừng
+        5 tép tỏi, 1 củ cà rốt
+        2 quả cà chua
+        4 củ khoai tây, 1 củ hành tây
+        1 chén rượu vang đỏ, tương cà, gia vị 
+        </p>
+       <h2> Cách làm:</h2>
+       <hr>
+        <p> Bước 1: Thịt bò mua về chị em khử mùi với ít rượu, sau đó thái miếng vuông vừa ăn. Tiếp đó sơ chế các nguyên liệu kể trên. Ướp thịt bò với gừng băm, 3 thìa nước mắm, 1 ít đường,1 ít ngũ vị hương, ít rượu vàng và 1 thìa sốt cà chua. <br>
+        
+            Bước 2: Cho dầu ăn vào chảo nóng, tiếp đó cho cà chua vào đảo đều, tiếp đó cho thịt bò vào xào cùng, thêm 2 bát nước con ấm, hầm tầm 20 phút thì cho cà rốt, khoai tây, hành tây vào hầm cùng đến khi mềm, nêm nếm gia vị vừa ăn là hoàn thành. Món này nên ăn kèm với bánh mì sẽ vô cùng ngon. <br></p>
+       
+        <img id="anh" src="thit bo.jpg" alt="">
+
+      </div>
+      <div class="monan">
+          <h1>Nước ép cà rốt</h1>
+          <h2>Nguyên liệu</h2>
+          <hr>
+          <p>1 củ cà rốt, 4 ml dầu oliu, 10mg đường, 1mg muối</p>
+        <h2>Cách thực hiện </h2>
+        <hr>
+       <p> Bước 1: Bạn rửa sạch các nguyên liệu, sau đó gọt bỏ vỏ dưa leo và cà rốt. <br>
+        Bước 2: Cho dưa leo, cà rốt và cần tây vào máy ép và ép cho đến khi ra hết nước. <br>
+        Bước 3: Bạn đổ hỗn hợp nước ép này vào ly, cho thêm nước cốt chanh, khuấy đều rồi cho thêm đá viên vào là có thể thưởng thức được rồi. <br></p>
+          <img id="anh" src="cà rốt.jpg" alt="">
+      </div>
+      <div class="monan">
+          <h1>Nem rán</h1>
+       <h2> Nguyên liệu </h2>
+       <hr>
+        <p>Thịt: Thịt nạc dăm, thịt cua (có thể thay bằng tôm tươi) 
+            Trứng gà hoặc trứng vịt,
+            Rau: chọn khoảng 2-3 loại trong các loại: cà rốt, khoai môn, khoai lang, đậu phụ, củ đậu, giá đỗ, su hào.
+            Miến, bánh đa nem (bánh tráng) hoặc vỏ hoành thánh, váng đậu nếu muốn ăn giòn xốp.
+            Các gia vị khác: hành lá, muối, mộc nhĩ, nấm bào ngư , bạc hà hoặc các loại nấm, hành khác như: nấm đông cô (nấm hương), hành khô, tỏi khô, hành tây , tiêu . <br></p>
+       <h2> Thực hiện </h2>
+       <hr>
+       <p> Nhân nem: Thái nhỏ thịt rồi xay hoặc bằm nhuyễn. Rau thái sợi, cắt khúc vừa quấn cuộn. Miến (đã được ngâm qua nước), mộc nhĩ, nấm hương ngâm nước (nếu nấm tươi không cần ngâm), rửa sạch rồi thái nhỏ. Hành băm nhỏ. Tất cả trộn đều với trứng và gia vị (nên cho vào rất ít muối vì bánh tráng đã có sẵn vị mặn). <br>
+        
+        Gói nem: Bánh đa nem ủ mềm, cắt mép cứng, rồi cắt nhỏ vừa với độ dài dự định của nem, thường khoảng 3 đốt (lóng) tay; cho nhân vào cuốn tròn lại (chú ý không cuốn chặt tay). Còn nếu dùng vỏ hoành thánh chỉ việc gỡ từng vỏ hoành thánh và cho nhân gói như gói nem. <br>
+        
+        Rán nem: Bỏ vào chảo dầu nóng (dầu vừa mặt nem, không nên cho quá nhiều, nem sẽ bị nổ mặt và bung mép), để nhỏ lửa, trở đều tay cho đến khi nem chín vàng đều, vớt ra ăn nóng cùng với nước mắm pha chế gồm chanh (vớt bỏ hột để nước chấm không bị đắng, tỏi, ớt (bỏ hột, bằm nhuyễn), lượng đường cho vào hòa tan trong nước và nước mắm cho tới khi ớt và tỏi nổi hết lên trên bề mặt) và các loại rau thơm: ngò, tía tô, quế, rau răm, diếp cá, húng, đặc biệt là rau kinh giới và húng lủi (húng chó), xà lách. Có thể ăn kèm với bún sợi nhỏ. <br></p>
+        <img id="anh" src="15.jpg" alt="">
+      </div>
+     </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+.h1{
+    margin-left: 15px;
+    color: blue;
+
+}
+.h3{
+    margin-left: 40px;
+    color: grey;
+
+}
+.h4{
+    color: aqua;
+    text-align: center;
+}
+.h5{
+    font-size: 15px;
+    color: red;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    float: left;
+    border: 1px solid  black;
+}
+#box1{
+     background-color: aquamarine;
+}
+#box2{
+    background-color: blueviolet;
+}
+#box3{
+    background-color: brown;
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    float: right;
+    border: 1px solid  black;
+}
+#box1{
+     background-color: aquamarine;
+}
+#box2{
+    background-color: blueviolet;
+}
+#box3{
+    background-color: brown;
+}
+

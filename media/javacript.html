@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var a = 5, b = 2, c = "5"
+        document.writeln("a>b là"+(a>b) + " <br/>");
+        document.writeln("a &lt; b là" +(a<b) +"<br/>");
+        document.writeln("a>=b là" +(a>=b) +"<br/>");
+        document.writeln("a<=b là" +(a<=b) +"<br/>");
+        document.writeln("a==b là" +(a==b) +"<br/>");
+        document.writeln("a==c là" +(a==c) +"<br/>");
+        document.writeln("a===b là" +(a===b) +"<br/>");
+        document.writeln("a===c là" +(a===c) +"<br/>");
+        document.writeln("a!=b là" +(a!=b) +"<br/>");
+        
+        var a=function(m,n){
+           return m +n;
+       }(4,5);
+       document.writeln("4+5=" +a+"<br/>");
+       document.writeln("4-5="+function(m,n){
+           return m -n;
+       }(4,5)+"<br/>");
+           
+    </script>
+   
+
+     <input type="text" id="txt" value="Lê ">
+     <input type="text" id="txt1" value=" Nhật">
+     <input type="text" id="txt2" value=" Quang">
+
+     <div id="result"></div>
+     <script type="text/javascript">
+         document.getElementById('result').innerHTML=document.getElementById('txt').value + document.getElementById('txt1').value + document.getElementById('txt2').value;
+
+     </script>
+     
+    
+    
+</body>
+</html>
