@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+
 }
 .wrapper{
     width: 980px;
@@ -11,6 +11,7 @@
     display: flex;
     justify-content: space-between;/* nằm qua một bên trừa giữa một khoảng cách */
     align-items: center;/* chữ căn giữa */
+    width: 980px;
 }
 #menu{
     display: flex;
@@ -19,10 +20,34 @@
 #menu li a{
     text-decoration: none;
     padding: 15px 15px;
+    transition: 0.3s;
+}
+#menu li{
+  height: 50px;  
+  line-height: 50px;
+}
+#menu li a:hover{
+    background:linear-gradient(#361b63,#900fc5) ;
+    color: white;
 }
 .banner{
     width: 980px;
     height: 400px;
+
+}
+.banner img {
+    margin-top: 50px;
+}
+/*co dinh hearder*/
+.menu{
+    /* dung yen 1 cho*/
+    position: fixed;
+    top: 0;
+    width: 980px;
+   z-index: 2;
+   
+    background-color: white;
+  
 }
 .nd{
     width: 200px;
@@ -53,6 +78,18 @@
     background-image: linear-gradient(#900fc5,#9619b5);
     margin-left: 25px;
     margin-top: -150px;
+}
+.nd:hover{
+    opacity: 0.5;
+}
+.nd1:hover{
+    opacity: 0.5;
+}
+.nd2:hover{
+    opacity: 0.5;
+}
+.nd3:hover{
+    opacity: 0.5;
 }
 .conten{
     display: flex;
@@ -96,10 +133,16 @@
     display: flex;
     margin-top: 20px;
 }
+#tk:hover{
+    background-color:grey;
+    opacity: 0.5;
+}
 #tk{
-    background: #9619b5;
+    background:black;
     padding: 10px 20px;
     margin-left: 20px;
+    color: aliceblue;
+    font-size: 18px;
 }
 .nd-conten2{
     width: 425px;
@@ -149,9 +192,10 @@
     padding: 10px 30px;
 }
 #tk1{
-    background: #d5dd51;
+    background: whitesmoke;
     margin-left: 30px;
-    font-size: 22px;
+    font-size: 19px;
+    padding: 10px 10px;
 }
 #tk1:hover{
     background-color: #dc167c;
@@ -161,14 +205,14 @@
 
 }
 .conten4{
-    margin-top: 20px;
+    margin-top: 15px;
     display: flex;
 }
 .nd-conten4{
     background-color: #dc167c;
     width: 425px;
     height: 300px;
-    margin-left: 50px;
+    margin-left: 35px;
 }
 #td-conten4{
     text-align: center;
@@ -182,7 +226,7 @@
 #anh-conten4 img{
     width: 425px;
     height: 300px;
-    margin-left: 20px ;
+    margin-left: 60px ;
 }
 i{
     padding: 7px 10px;
